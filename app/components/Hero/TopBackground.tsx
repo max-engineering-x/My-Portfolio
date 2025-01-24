@@ -13,7 +13,7 @@ const TopBackground = () => {
               height={23}
             />
           </div>
-          <div className="circle-icon absolute top-[162px] left-1/4 md:top-64 md:left-10 flex items-center justify-center">
+          <div className="circle-icon top-[162px] -left-5 md:top-64 md:left-0">
             <img
               src="/bracket_icon.svg"
               alt="Bracket Icon"
