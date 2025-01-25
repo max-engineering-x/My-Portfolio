@@ -66,11 +66,11 @@ const Navbar = () => {
           <li>
             <div
               className={cn("rounded p-1 duration-300 ease-in-out", {
-                "bg-primary text-white": activeSection === "skills",
+                "bg-primary text-white": activeSection === "expertises",
               })}
               onClick={() => {
-                setActiveSection("skills");
-                scrollToSection("skills");
+                setActiveSection("expertises");
+                scrollToSection("expertises");
                 setIsOpen(false);
               }}
             >
