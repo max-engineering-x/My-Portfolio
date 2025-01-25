@@ -10,10 +10,10 @@ import Testimonial from "./Testimonial";
 
 const Testimonials = () => {
   return (
-    <SectionContainer id="testimonials">
+    <SectionContainer id="Testimonials">
       <div className="section-contents">
         <SectionHeader
-          plainText=" Check out these"
+          plainText="📢 Check out these"
           highlightText="Testimonials"
         />
         <div className="w-full overflow-x-clip">

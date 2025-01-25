@@ -16,7 +16,7 @@ const Testimonial = ({ image, name, role, description }: Props) => {
           alt={`Profile Picture for testimonial by ${name}`}
           width={38}
           height={28}
-          className="w-10 h-10 rounded-full object-cover"
+          className="w-14 h-14 rounded-full object-cover"
         />
         <div className="flex flex-col">
             <p className="text-sm">{name}</p>

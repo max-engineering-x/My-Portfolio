@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import Expertises from "./Expertises/Expertises";
 import Projects from "./Projects/Projects";
 import Testimonials from "./Testimonials/Testimonials";
+import Experiences from "./Experiences/Experiences";
 
 const Sections = () => {
   return (
@@ -12,6 +13,7 @@ const Sections = () => {
       <Expertises />
       <Projects />
       <Testimonials />
+      <Experiences />
     </main>
   );
 };
