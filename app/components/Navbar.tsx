@@ -122,11 +122,11 @@ const Navbar = () => {
           <li>
             <div
               className={cn("rounded p-1 whitespace-nowrap duration-300 ease-in-out", {
-                "bg-primary text-white": activeSection === "Contact",
+                "bg-primary text-white": activeSection === "contact",
               })}
               onClick={() => {
-                setActiveSection("Contact");
-                scrollToSection("Contact");
+                setActiveSection("contact");
+                scrollToSection("contact");
                 setIsOpen(false);
               }}
             >
