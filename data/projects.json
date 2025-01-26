@@ -1,32 +1,32 @@
 [
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather DashBoard",
+    "thumbnail": "/enhanced_academic_experience_project.jpg",
+    "title": "Enhanced Academic Experience (Full-Stack)",
     "link": {
-      "label": "Weather.dash",
-      "url": "https://www.examaple.com"
+      "label": "",
+      "url": ""
     },
-    "description": "I developer a weather dashboard bro",
+    "description": "My senior project, Enhanced Academic Experience aimed to enrich students' learning by identifying their strengths and weaknesses, and helping them form study groups with others who complement their skills.",
     "languageIcons": ["/js_icon.png", "/node_icon.png"]
   },
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather DashBoard",
+    "thumbnail": "/noob_project.jpg",
+    "title": "Noob (Back-End)",
     "link": {
-      "label": "Weather.dash",
-      "url": "https://www.examaple.com"
+      "label": "",
+      "url": ""
     },
-    "description": "I developer a weather dashboard bro",
-    "languageIcons": ["/js_icon.png", "/node_icon.png"]
+    "description": "\"Noob\" is a comprehensive platform for managing gaming tournaments, coaching, and eSports masterclasses. It enables users to create and manage tournaments, access coaching sessions, and join masterclasses. Key features include dynamic tournament management, team registration, player scouting, and integration with PC centers. Players can subscribe to gaming venues, and vendors can manage their services. \"Noob\" unites gamers, coaches, teams, and gaming centers to enhance the eSports community and elevate the gaming experience.",
+    "languageIcons": ["/java_icon.png"]
   },
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather DashBoard",
+    "thumbnail": "/find_it_project.jpg",
+    "title": "Find It (Back-End)",
     "link": {
-      "label": "Weather.dash",
-      "url": "https://www.examaple.com"
+      "label": "",
+      "url": ""
     },
-    "description": "I developer a weather dashboard bro",
-    "languageIcons": ["/js_icon.png", "/node_icon.png"]
+    "description": "Users can report lost items with detailed information, prioritize cases by value, and escalate critical ones, making it easier to find lost items on a larger scale. The system also generates found item reports with finder details and offers the option to provide rewards for returns, enhancing the recovery process.",
+    "languageIcons": ["/java_icon.png"]
   }
 ]

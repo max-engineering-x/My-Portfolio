@@ -6,6 +6,8 @@ import Projects from "./Projects/Projects";
 import Testimonials from "./Testimonials/Testimonials";
 import Experiences from "./Experiences/Experiences";
 
+import Contact from "./Contact";
+
 const Sections = () => {
   return (
     <main className="flex flex-col gap-[142px] w-full md:max-w-screen-lg pt-[236px] md:pt-60 mx-auto">
@@ -14,6 +16,7 @@ const Sections = () => {
       <Projects />
       <Testimonials />
       <Experiences />
+      <Contact />
     </main>
   );
 };
