@@ -9,9 +9,9 @@ import Expertise from "./Expertise";
 const Expertises = () => {
   return (
     <SectionContainer id="expertises">
-      <div className="section-contents mx-[22px] md:mx-[116px]">
+      <div className="section-contents mx-[22px] md:mx-[116px] ">
         <SectionHeader plainText="💻This is my" highlightText="Tech Stack" />
-        <div className="card w-full px-[33px] py-[27px] flex flex-wrap flex-col md:flex-row justify-center items-center gap-[19px] md:gap-[33px]">
+        <div className="card w-full px-[33px] py-[27px] flex flex-wrap flex-col md:flex-row justify-center items-center gap-[19px] md:gap-[33px] cursor-pointer">
           {skills.map((skill, id) => (
             <Expertise key={id} name={skill.name} icon={skill.icon} />
           ))}

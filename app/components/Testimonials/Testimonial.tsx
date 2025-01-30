@@ -9,7 +9,7 @@ type Props = {
 
 const Testimonial = ({ image, name, role, description }: Props) => {
   return (
-    <div className="card flex flex-col gap-[33px] w-[270px] sm:min-w-[436px] px-[33px] py-[27px]">
+    <div className="card flex flex-col gap-[33px] w-[270px] sm:min-w-[436px] px-[33px] py-[27px] hover:scale-105 duration-300 ease-in-out cursor-pointer">
       <div className="flex gap-4 items-center ">
         <img
           src={image}

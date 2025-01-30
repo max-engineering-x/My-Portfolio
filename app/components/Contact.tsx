@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative flex flex-col items-center px-4 py-8 mx-4 gap-8 z-30 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg md:gap-6 text-center mb-16"
+      className="relative flex flex-col items-center px-4 py-8 mx-4 gap-8 z-30 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg md:gap-6 text-center mb-16 transition-transform duration-300 hover:scale-105"
     >
       <div className="flex flex-col md:flex-row gap-4 md:justify-center w-full">
         <h2 className="font-bold text-3xl md:text-5xl leading-snug text-gray-800 dark:text-white">

@@ -19,7 +19,7 @@ const Project = ({
   languageIcons,
 }: Props) => {
   return (
-    <div className="card flex flex-col items-stretch w-full max-w-[428.4px] p-5 md:p-[18px] gap-[30px]">
+    <div className="card flex flex-col items-stretch w-full max-w-[428.4px] p-5 md:p-[18px] gap-[30px] transition-transform duration-300 hover:scale-105 cursor-pointer">
       <img
         src={thumbnail}
         alt={`Thumbnail for ${title}`}
