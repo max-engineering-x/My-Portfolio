@@ -5,6 +5,7 @@ import SectionContainer from "../Section/SectionContainer";
 import SectionHeader from "../Section/SectionHeader";
 
 import Expertise from "./Expertise";
+import Image from "next/image";
 
 const Expertises = () => {
   return (
@@ -18,14 +19,14 @@ const Expertises = () => {
         </div>
       </div>
       <>
-        <img
+        <Image
           src="/tech_stack_grid_dark.svg"
           alt="Background Grid Decoration"
           width={569}
           height={373}
           className="hidden dark:md:block -z-10 absolute -left-[135px] -top-[39px]"
         />
-           <img
+           <Image
           src="/tech_stack_grid.svg"
           alt="Background Grid Decoration"
           width={569}

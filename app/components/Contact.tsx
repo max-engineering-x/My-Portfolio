@@ -1,5 +1,8 @@
 import React from "react";
 
+import Image from "next/image";
+
+
 const Contact = () => {
   return (
     <section
@@ -18,10 +21,11 @@ const Contact = () => {
       <div className="flex flex-col gap-4 items-center">
         <a
           href="mailto:moalsaadi18@gmail.com"
-          className="bg-primary text-white px-4 py-2 rounded-lg flex gap-3 items-center text-lg md:text-xl font-medium shadow-md hover:shadow-lg hover:bg-primary-dark transition-all duration-300"
+          className="bg-primary text-white px-4 py-2 rounded-lg flex gap-3 items-center text-lg md:text-xl font-medium shadow-md hover:shadow-lg hover:bg-primary-dark transition-all duration-300 transition-transform duration-300 hover:scale-105 cursor-pointer"
         >
           Let&#8217;s get in touch
-          <img src="/mail_icon.svg" alt="Mail icon" className="w-6 h-6" />
+          <Image src="/mail_icon.svg" alt="Mail icon" className="w-6 h-6" width={50} 
+            height={50} />
         </a>
         <div className="flex gap-6 justify-center items-center">
           <a
@@ -29,15 +33,19 @@ const Contact = () => {
             target="_blank"
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
           >
-            <img
+            <Image
               src="/github_logo_dark.svg"
               alt="Github logo for dark mode"
               className="w-6 h-6 hidden dark:block"
+              width={50} 
+            height={50} 
             />
-            <img
+            <Image
               src="/github_logo.svg"
               alt="Github logo"
               className="w-6 h-6 dark:hidden"
+              width={50} 
+            height={50} 
             />
           </a>
           <a
@@ -45,20 +53,24 @@ const Contact = () => {
             target="_blank"
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
           >
-            <img
+            <Image
               src="/linkedln_logo_dark.svg"
               alt="LinkedIn logo for dark mode"
               className="w-6 h-6 hidden dark:block"
+              width={50} 
+            height={50} 
             />
-            <img
+            <Image
               src="/linkedln_logo.svg"
               alt="LinkedIn logo"
               className="w-6 h-6 dark:hidden"
+              width={50} 
+            height={50} 
             />
           </a>
         </div>
       </div>
-      <small className="text-gray-500 dark:text-gray-400 mt-4">
+      <small className="text-gray-500 dark:text-gray-400 mt-4 transition-transform duration-300 hover:scale-105 cursor-pointer">
         Copyright&copy; Mohammed Alzahrani 2025
       </small>
     </section>

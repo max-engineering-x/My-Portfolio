@@ -5,6 +5,8 @@ import React, { useCallback, useEffect, useState } from "react";
 import cn from "classnames";
 import Reveal from "./Reveal";
 
+import Image from "next/image";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,15 +30,20 @@ const Navbar = () => {
         className="bg-background card-shadow p-3 md:hidden rounded"
         onClick={() => setIsOpen((prevVal) => !prevVal)}
       >
-        <img
+        <Image
           className="block dark:hidden"
           src="/menu_icon_light.svg"
           alt="The menu icon"
+          width={50} 
+            height={50} 
         />
-        <img
+        <Image
           className="hidden dark:block"
           src="/menu_icon_dark.svg"
           alt="The menu icon"
+          
+            height={50} 
+            width={50} 
         />
       </button>
 

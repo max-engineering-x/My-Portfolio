@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 type Props = {
   image: string;
   name: string;
@@ -11,7 +13,7 @@ const Testimonial = ({ image, name, role, description }: Props) => {
   return (
     <div className="card flex flex-col gap-[33px] w-[270px] sm:min-w-[436px] px-[33px] py-[27px] hover:scale-105 duration-300 ease-in-out cursor-pointer">
       <div className="flex gap-4 items-center ">
-        <img
+        <Image
           src={image}
           alt={`Profile Picture for testimonial by ${name}`}
           width={38}
