@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const TopBackground = () => {
   return (
@@ -6,7 +7,7 @@ const TopBackground = () => {
       <div className="absolute w-full max-w[360px] md:max-w-screen-lg h-[285px] md:h-[656px] top-[188px] md:top-11 left-1/2 -translate-x-1/2 md:overflow-x-hidden z-10">
         <div className="w-full h-full relative">
           <div className="circle-icon top-0 left-[171px] md:top-28 md:left-72">
-            <img
+            <Image
               src="/rocket_icon.svg"
               alt="Rocket Icon"
               width={23}
@@ -14,7 +15,7 @@ const TopBackground = () => {
             />
           </div>
           <div className="circle-icon top-[162px] -left-5 md:top-64 md:left-0">
-            <img
+            <Image
               src="/bracket_icon.svg"
               alt="Bracket Icon"
               width={23}
@@ -22,7 +23,7 @@ const TopBackground = () => {
             />
           </div>
           <div className="circle-icon absolute top-60 left-[149px] md:top-[570px] md:left-44 flex items-center justify-center">
-            <img
+            <Image
               src="/github_icon.svg"
               alt="Github Icon"
               width={23}
@@ -30,7 +31,7 @@ const TopBackground = () => {
             />
           </div>
           <div className="hidden md:circle-icon  md:top-[592px] md:left-[608px]">
-            <img
+            <Image
               src="/electricity_icon.svg"
               alt="Electricity Icon"
               width={23}
@@ -38,7 +39,7 @@ const TopBackground = () => {
             />
           </div>
           <div className="hidden md:circle-icon  md:top-[158px] md:left-[606px]">
-            <img
+            <Image
               src="/merge_icon.svg"
               alt="Merge Icon"
               width={23}
@@ -46,7 +47,7 @@ const TopBackground = () => {
             />
           </div>
           <div className="hidden md:circle-icon  md:top-[368px] md:left-[965px]">
-            <img
+            <Image
               src="/stack_icon.svg"
               alt="Stack Icon"
               width={23}
@@ -55,14 +56,14 @@ const TopBackground = () => {
           </div>
         </div>
       </div>
-      <img
+      <Image
         src="/top_highlight.svg"
         alt="Top dark mode background highlight"
         width={809}
         height={877}
         className="absolute top-[-515px] hidden dark:md:block left-1/2 -translate-x-1/2"
       />
-      <img
+      <Image
         src="/top_highlight_mobile.svg"
         alt="Top dark mode background highlight for the mobile"
         width={429}
