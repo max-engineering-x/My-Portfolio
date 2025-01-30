@@ -34,16 +34,16 @@ const Navbar = () => {
           className="block dark:hidden"
           src="/menu_icon_light.svg"
           alt="The menu icon"
-          width={50} 
-            height={50} 
+          width={25} 
+            height={25} 
         />
         <Image
           className="hidden dark:block"
           src="/menu_icon_dark.svg"
           alt="The menu icon"
           
-            height={50} 
-            width={50} 
+            height={25} 
+            width={25} 
         />
       </button>
 
