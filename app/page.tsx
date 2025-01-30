@@ -29,6 +29,7 @@ export default function Home() {
         width={1557}
         className="absolute -bottom-[175px] left-1/2 -translate-x-1/2 min-w-[1557px] min-h-[936px] -z-50 hidden md:block"
       />
+      <Analytics/>
     </div>
   );
 }
