@@ -5,6 +5,9 @@ import Sections from "./components/Sections";
 import ThemeToggle from "./components/ThemeToggle";
 import Image from "next/image";
 
+import { Analytics } from "@vercel/analytics/react"
+
+
 export default function Home() {
   return (
     <div className="relative overflow-clip " id="home">
