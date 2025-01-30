@@ -5,6 +5,7 @@ import SectionContainer from "../Section/SectionContainer";
 import SectionHeader from "../Section/SectionHeader";
 
 import Experience from "./Experience";
+import Image from "next/image";
 
 const Experiences = () => {
   return (
@@ -29,7 +30,7 @@ const Experiences = () => {
         </div>
       </div>
       <div className="circle-icon absolute h-14 w-14 top-[-20px] right-1.5 md:top-[-40px] md:right-[90px] -z-10 flex items-center justify-center bg-white rounded-full shadow-lg">
-        <img
+        <Image
           src="/bracket_icon.svg"
           alt="Bracket Icon"
           width={23}
@@ -38,7 +39,7 @@ const Experiences = () => {
         />
       </div>
       <div className="circle-icon h-14 w-14 left-1.5 bottom-0 md:left-[90px] -z-10">
-        <img
+        <Image
           src="/electricity_icon.svg"
           alt="electricity icon"
           width={23}

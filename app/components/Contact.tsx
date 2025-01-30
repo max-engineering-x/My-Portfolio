@@ -1,5 +1,8 @@
 import React from "react";
 
+import Image from "next/image";
+
+
 const Contact = () => {
   return (
     <section
@@ -21,7 +24,7 @@ const Contact = () => {
           className="bg-primary text-white px-4 py-2 rounded-lg flex gap-3 items-center text-lg md:text-xl font-medium shadow-md hover:shadow-lg hover:bg-primary-dark transition-all duration-300"
         >
           Let&#8217;s get in touch
-          <img src="/mail_icon.svg" alt="Mail icon" className="w-6 h-6" />
+          <Image src="/mail_icon.svg" alt="Mail icon" className="w-6 h-6" />
         </a>
         <div className="flex gap-6 justify-center items-center">
           <a
@@ -29,12 +32,12 @@ const Contact = () => {
             target="_blank"
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
           >
-            <img
+            <Image
               src="/github_logo_dark.svg"
               alt="Github logo for dark mode"
               className="w-6 h-6 hidden dark:block"
             />
-            <img
+            <Image
               src="/github_logo.svg"
               alt="Github logo"
               className="w-6 h-6 dark:hidden"
@@ -45,12 +48,12 @@ const Contact = () => {
             target="_blank"
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
           >
-            <img
+            <Image
               src="/linkedln_logo_dark.svg"
               alt="LinkedIn logo for dark mode"
               className="w-6 h-6 hidden dark:block"
             />
-            <img
+            <Image
               src="/linkedln_logo.svg"
               alt="LinkedIn logo"
               className="w-6 h-6 dark:hidden"

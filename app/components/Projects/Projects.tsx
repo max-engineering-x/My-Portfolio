@@ -6,6 +6,9 @@ import projects from "@/data/projects.json";
 
 import Project from "./Project";
 
+import Image from "next/image";
+
+
 const Projects = () => {
   return (
     <SectionContainer id="projects">
@@ -24,14 +27,14 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <img
+      <Image
         src="/projects_highlight.svg"
         alt="Background highlight decoration for the projct section"
         width={558}
         height={558}
         className="absolute hidden md:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 "
       />
-        <img
+        <Image
         src="/projects_highlight_mobile.svg"
         alt="Mobile Background highlight decoration for the projct section"
         width={321}

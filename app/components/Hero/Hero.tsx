@@ -1,6 +1,8 @@
 import React from "react";
 import Reveal from "../Reveal";
 
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <section className=" relative flex flex-row items-center z-20 mx-auto md:gap-[37px] md:mx-10">
@@ -29,27 +31,27 @@ const Hero = () => {
             href="mailto:moalsaadi18@gmail.com"
           >
             Let's Connect{" "}
-            <img src="/arrow_right_icon.svg" alt="Arrow Right Icon" />
+            <Image src="/arrow_right_icon.svg" alt="Arrow Right Icon" />
           </a>
         </Reveal>
       </div>
       <div className="relative group">
         <Reveal>
-          <img
+          <Image
             src="/profile_light_purple.png"
             alt="light purple rectangle"
             width={372}
             height={430}
             className="hidden md:block w-[372px] h-[430px] absolute right-0  -z-10 group-hover:scale-[102%] group-hover:-rotate-2 ease-in-out duration-300"
           />
-          <img
+          <Image
             src="/profile_dark_purple.png"
             alt="Dark purple rectangle"
             width={372}
             height={430}
             className="hidden md:block w-[372px] h-[430px] absolute right-0 -z-10 group-hover:scale-[102%] group-hover:rotate-2 ease-in-out duration-300"
           />
-          <img
+          <Image
             src="/profile_picture.jpeg"
             alt="The profile picture"
             width={380}
