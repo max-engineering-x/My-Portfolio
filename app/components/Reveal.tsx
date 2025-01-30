@@ -28,7 +28,7 @@ const Reveal = ({
     if (isInView) {
       controls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, controls]);
 
   return (
     <motion.span

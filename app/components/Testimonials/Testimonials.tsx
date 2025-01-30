@@ -5,7 +5,6 @@ import SectionContainer from "../Section/SectionContainer";
 import SectionHeader from "../Section/SectionHeader";
 
 import testimonials from "@/data/testimonials.json";
-import test from "node:test";
 import Testimonial from "./Testimonial";
 
 const Testimonials = () => {
