@@ -1,14 +1,5 @@
 [
-  {
-    "thumbnail": "/enhanced_academic_experience_project.jpg",
-    "title": "Enhanced Academic Experience (Full-Stack)",
-    "link": {
-      "label": "",
-      "url": ""
-    },
-    "description": "My senior project, Enhanced Academic Experience aimed to enrich students' learning by identifying their strengths and weaknesses, and helping them form study groups with others who complement their skills.",
-    "languageIcons": ["/js_icon.png", "/node_icon.png"]
-  },
+  
   {
     "thumbnail": "/noob_project.jpg",
     "title": "Noob (Back-End)",
@@ -28,5 +19,15 @@
     },
     "description": "Users can report lost items with detailed information, prioritize cases by value, and escalate critical ones, making it easier to find lost items on a larger scale. The system also generates found item reports with finder details and offers the option to provide rewards for returns, enhancing the recovery process.",
     "languageIcons": ["/java_icon.png"]
+  },
+  {
+    "thumbnail": "/enhanced_academic_experience_project.jpg",
+    "title": "Enhanced Academic Experience",
+    "link": {
+      "label": "",
+      "url": ""
+    },
+    "description": "My senior project (Full-Stack Project), Enhanced Academic Experience aimed to enrich students' learning by identifying their strengths and weaknesses, and helping them form study groups with others who complement their skills.",
+    "languageIcons": ["/js_icon.png", "/node_icon.png"]
   }
 ]

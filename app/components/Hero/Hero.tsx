@@ -31,8 +31,12 @@ const Hero = () => {
             href="mailto:moalsaadi18@gmail.com"
           >
             Let's Connect{" "}
-            <Image src="/arrow_right_icon.svg" alt="Arrow Right Icon" />
-          </a>
+            <Image
+  src="/arrow_right_icon.svg"
+  alt="Arrow Right Icon"
+  width={25}
+  height={24} 
+/>          </a>
         </Reveal>
       </div>
       <div className="relative group">
