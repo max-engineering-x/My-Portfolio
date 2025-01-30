@@ -12,7 +12,7 @@ type Props = {
   dates: string;
 };
 
-function Experience({ id, image, company, role, description, dates }: Props) {
+function Experience({image, company, role, description, dates }: Props) {
   return (
     <div className="card flex flex-col items-stretch w-full max-w-screen-lg px-6 py-[27px] md:px-[33px] gap-3 transition-transform duration-300 hover:scale-105 cursor-pointer">
       <div className="flex flex-col items-start md:flex-row gap-1 md:gap-0 md:justify-between">
